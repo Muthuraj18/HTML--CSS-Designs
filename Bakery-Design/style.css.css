@@ -1,0 +1,238 @@
+.nav-sample{
+    padding-left: 50px;
+}
+.section_first{
+    background-image: url("Banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section_first h6{
+    color: #E9BD8C;
+    font-size: 24px;
+    font-weight: 600;
+}
+.section_first h2{
+    color: #F5F5F5;
+    font-size: 74px;
+    font-weight: 600;
+}
+.section_first button{
+    background-color: #933C24;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    color: #F5F5F5;
+    font-size: 24px;
+    padding: 12px 18px;
+}
+
+
+.section_first .head-content{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+
+.section_first  .nav-link{
+    color: #fff !important;
+    font-weight: 500;
+}
+
+
+.section_first  .nav-link.active{
+    color: #E9BD8C !important;
+    font-weight: 700;
+
+}
+
+
+.section_second .cards{
+    background-image: url('Rectangle1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.section_second .backgroundimg button{
+    background-color: #933C24;
+    padding: 16px 12px;
+    border-radius: 5px;
+    color: #F5F5F5;
+}
+
+.section_second .backgroundimg img{
+    height: 230px;
+    width: 100%;
+}
+.section_second h2{
+    color:#111111;
+    font-family: cursive;
+    padding: 50px;
+}
+.section_second h4{
+    color: #F5F5F5;
+}
+.section_third{
+    background-image: url('firstorder.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    width: 100%;
+}
+.section_third h1{
+    color: #933C24;
+    font-size: 48px;
+    font-weight: 500;
+    font-family: cursive;
+    text-align: center;
+  
+}
+.section_third p{
+    color: #5D5D5D;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.section_third button{
+    background-color: #933C24;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #F5F5F5;
+    font-size: 24px;
+    padding: 12px 18px; 
+    display: block;
+    margin: auto;
+}
+
+.section_four img{
+    width: 100%
+}
+.section_four h2{
+    color: #111111;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: cursive;
+}
+.section_four .cards1{
+    margin-bottom: 30px;
+}
+.section_five{
+    background-image: url('about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.section_five h2{
+    color: #F5F5F5;
+    font-size:48px;
+    font-weight: 600;
+    font-family: cursive;
+    text-align: center;
+}
+.section_five p{
+    color:#B9B9B9;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: cursive;
+    text-align: center;
+}
+.section_five button{
+    background-color: #933C24;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #F5F5F5;
+    font-size: 24px;
+    padding: 12px 18px; 
+    display: block;
+    margin: auto;
+}
+.section_six h1{
+    color:#111111;
+    font: size 32px;
+    font-weight: 600;
+    font-family:cursive;
+    padding: 30px;
+}
+.section_six .cards2{
+    width: 100%;
+    padding: 30px;
+}
+/*.section_seven .cards2 h4{
+    justify-content: space-between;
+}
+*/
+.section_seven{
+    background-image: url('footerimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    width: 100% ;
+}
+.section_seven h3{
+    color: #E9BD8D;
+    font-size: 36px;
+    font-weight: 700;
+    font-family:Inter;
+}
+.section_seven h5{
+    color: #F5F5F5;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: poppins;    
+}
+.section_seven p{
+    color: #E9BD8C;
+    font: size 18px;
+    font-weight:400;
+}
+.section_seven .Followus img {
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+}
+.section_six .cards2 img{
+    width: 100%;
+}
+.section_seven .Followus{
+    padding-left: 700px;
+}
+.section_seven .last img{
+    margin-bottom: 10px;
+}
+
+/*1280
+  1024
+  920
+  540
+  360
+*/
+@media screen and (max-width:1280px){
+    .section_first h2{
+        font-size: 50px;
+        color:white;
+    }
+
+    .section_seven {  
+        padding: 20px;
+    }
+    .section_four p{
+        font-size:20px;
+    }
+} 
+@media screen and (max-width: 400px) {
+    .section_seven .Followus img{
+        width: 20px;
+        height: 20px;
+    }
+    .section_seven{
+        padding: 20px;
+    }
+    .section_four p{
+        padding: 5px !important;
+    }    
+}
