@@ -1,0 +1,71 @@
+.sec_A .container{
+    background-image: url(Backgroundimage.png);
+    background-size: cover;
+    min-height: 100vh;
+}
+.sec_A .backimg{
+    width: 1005;
+    height: 26px;
+}
+.sec_A .A-content{
+    align-items: center;
+}
+.sec_A h1{
+    color: #FFFFFF;
+}
+.sec_A p{
+    color: #FFFFFF;
+}
+.sec_A button{
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 20px ;
+    border-radius: 14px;
+}
+
+/*SECRION2*/
+.sec_B {
+    margin-top: 30px;
+}
+.sec_B .marketing,.engagement,.branding,.design{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    padding: 25px 15px;
+    height: 300px;
+}
+.sec_B .marketing,.engagement,.branding,.design h3{
+    color: #343F52;
+    font-size: 20px;
+}
+.sec_B .marketing,.engagement,.branding,.design p{
+    color:#60697B;
+    font-size: 17px;
+}
+.sec_B .marketing,.engagement,.branding,.design{
+    border-radius: 10px;
+}
+.sec_B .marketing h6{
+    color: #E668B3;
+    font-size: 17px;
+}
+.sec_B .engagement h6{
+    color: #A07CC5;
+    font-size: 17px;
+}
+.sec_B .branding h6{
+    color: #F78B77;
+    font-size: 17px;
+}
+.sec_B .design h6{
+    color: #45C4A0;
+    font-size: 17px;
+}
+/* .sec_B .marketing,.engagement,.branding,.backing{
+    margin-right: 10px;
+} */
+
+/*SECTION3*/
+.sec_C .C-top{
+    text-align: center;
+}
