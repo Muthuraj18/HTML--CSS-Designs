@@ -1,0 +1,466 @@
+* {
+    font-family: 'Urbanist';
+}
+
+/*SECTION-A*/
+.Section_A .row {
+    min-height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section_A .header button {
+    background-color: #5EB9F0;
+    color: #FFFFFF;
+    border: #5EB9F0;
+    border-radius: 40px;
+    padding: 5px 20px;
+}
+
+.Section_A .A-middle img {
+    width: 100%;
+}
+
+.Section_A .A-top h1 {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.Section_A .A-top p {
+    color: #60697B;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.Section_A .A-top button {
+    background-color: #5EB9F0;
+    color: #FFFFFF;
+    border: #5EB9F0;
+    border-radius: 40px;
+    padding: 15px 30px;
+}
+
+.Section_A .A-content p {
+    color: #60697B;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.logo-section {
+    gap: 20px;
+    padding: 20px;
+}
+
+.logo-img {
+    flex: 1 1 120px;
+    /* grow, shrink, base size */
+    max-width: 120px;
+    height: auto;
+    object-fit: contain;
+}
+
+/*SECTION-B*/
+/* .Section_B .body{
+    background: linear-gradient(180deg, #F0F8FE 0%, rgba(255, 255, 255, 0) 100%);
+} */
+.Section_B {
+    margin-bottom: 35px;
+}
+
+.Section_B .secB-top p {
+    color: #5EB9F0;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 25px;
+}
+
+.Section_B .secB-top h2 {
+    color: #343F52;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Section_B .card-B img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.Section_B .card-B h3 {
+    color: #343F52;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Section_B .card-B p {
+    color: #60697B;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Section_B .B-middle p {
+    color: #5EB9F0;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*SECTION-C*/
+.Section_C {
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.Section_C .card-C h6 {
+    color: #5EB9F0;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.Section_C .card-C h2 {
+    color: #343F52;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.Section_C .card-C p {
+    color: #60697B;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.Section_C .card-C button {
+    background-color: #5EB9F0;
+    color: #FFFFFF;
+    border: #5EB9F0;
+    border-radius: 40px;
+    padding: 15px 30px;
+}
+
+.Section_C .card-C-1,
+.Section_C .card-C-2,
+.Section_C .card-C-3 {
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 0px 6px rgba(247, 247, 247, 0.59);
+    -webkit-box-shadow: 0px 0px 0px 6px rgba(247, 247, 247, 0.59);
+    -moz-box-shadow: 0px 0px 0px 6px rgba(247, 247, 247, 0.59);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-color: transparent;
+    /* padding: 20px;
+    margin-top: 10px; */
+}
+
+.Section_C .card-C-1 img,
+.Section_C .card-C-2 img,
+.Section_C .card-C-3 img {
+    border-radius: 60px;
+    background-color: #FFFFFF;
+}
+
+.Section_C .card-c h5 {
+    color: #343F52;
+    font-size: 20px;
+}
+
+.Section_C .card-c p {
+    color: #60697B;
+    font-size: 17px;
+}
+
+.Section_C .card-C-2 {
+    margin-left: 60px;
+}
+
+.Section_C .card-C-3 {
+    margin-left: 20px;
+}
+
+/*SECTION-D*/
+.Section_D {
+    /* background: linear-gradient(lightblue,white,lightblue); */
+    margin-top: 30px;
+    margin-bottom: 10%;
+}
+
+.Section_D .cardD-left img {
+    width: 100%;
+}
+.Section_D .card-right p {
+    color: #5EB9F0;
+    font-size: 15px;
+}
+.Section_D .card-right h2{
+    color: #343F52;
+}
+
+/*SECTION-E*/
+.Section_E {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Section_E .cardE-1 p {
+    color: #5EB9F0;
+    font-size: 16px;
+}
+
+.Section_E .cardE-1 h3 {
+    color: #343F52;
+    font-size: 42px;
+}
+
+.Section_E .cardE-1 p {
+    color: #60697B;
+    font-size: 17px;
+}
+
+.Section_E .cardE-2 {
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Section_E .cardE-2 h5 {
+    columns: #343F52;
+    font-size: 41px;
+}
+
+.Section_E .cardE-2 p {
+    color: #60697B;
+    font-size: 17px;
+}
+
+.Section_E .cardE-2 img {
+    padding-right: 15px;
+}
+
+
+/*SECTION-F*/
+.Section_F .card-F-1,
+.Section_F .card-F-2,
+.Section_F .card-F-3,
+.Section_F .card-F-4 {
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 25px;
+}
+
+.Section_F .card-F-1,
+.Section_F .card-F-2,
+.Section_F .card-F-3,
+.Section_F .card-F-4 h5 {
+    color: #343F52;
+    font-size: 20px;
+}
+
+.Section_F .card-f h5 {
+    color: #343F52;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.Section_F .card-f h6 {
+    color: #AAB0BC;
+    font-size: 14px;
+}
+
+.Section_F .card-f p {
+    color: #60697B;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.Section_F .sample {
+    gap: 10px;
+}
+
+
+/*SECTION-G*/
+.Section_G .secG-top p {
+    color: #5EB9F0;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 25px;
+}
+
+.Section_G .secG-top h2 {
+    color: #343F52;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Section_G .card-G img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.Section_G .card-G h4 {
+    color: #343F52;
+    font-size: 23px;
+    padding-top: 15px;
+}
+
+.Section_G .card-G p {
+    color: #9499A3;
+    font-size: 14px;
+}
+
+/*SECTION-H*/
+.Section_H .secH-top p {
+    color: #5EB9F0;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 25px;
+}
+
+.Section_H .secH-top h2 {
+    color: #343F52;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 100%;
+}
+
+.Section_H .whitecards {
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.Section_H .whitecards p {
+    color: #60697B;
+    font-size: 18px;
+}
+
+.Section_H .whitecards h5 {
+    color: #343F52;
+}
+
+.Section_H .whitecards img {
+    width: 70px;
+    height: 70px;
+}
+
+.Section_H .card-h {
+    gap: 10px;
+}
+
+/*SECTION-I*/
+.Section_I {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Section_I .secI-top h6 {
+    color: #5EB9F0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Section_I .secI-top h2 {
+    color: #343F52;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.Section_I .secI-top p {
+    color: #60697B;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.Section_I .secI-top button {
+    background-color: #5EB9F0;
+    color: #FFFFFF;
+    border: #5EB9F0;
+    border-radius: 40px;
+    padding: 15px 35px;
+}
+
+/*SECTION-J*/
+.Section_J {
+    background-color: #343F52;
+}
+.Section_J .footertop{
+    padding-top: 30px;
+}
+.Section_J .secJ-top h2 {
+    color: #FFFFFF;
+    font-size: 35px;
+}
+.Section_J .secJ-top button {
+    background-color: #5EB9F0;
+    color: #FFFFFF;
+    border: 2px solid #5EB9F0;
+    border-radius: 40px;
+    padding: 15px 35px;
+}
+.Section_J .footer-content h5 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.Section_J .footer-content p {
+    color: #FFFFFF;
+    font-size: 17px;
+    padding-top: 10px;
+}
+.Section_J .footpara p {
+    margin-bottom: 2%;
+}
+.Section_J .footerimg {
+    width: 20px;
+    height: 20px;
+    gap: 5px;
+}
+.Section_J .logo {
+    margin-top: 25px;
+}
+.Section_J .footerbottom {
+    padding-bottom: 30px;
+}
+.Section_J .formgroup input {
+    width: 100%;
+    background-color: #343F52;
+    color: #959CA9;
+    border: 1px solid #959CA9;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 18px 21px;
+    font-size: 14px;
+}
+.Section_J .formgroup button {
+    background-color: #5EB9F0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 2px solid #5EB9F0;
+    color: #FFFFFF;
+    padding: 15px 25px;
+}
+.Section_J .footinfo,.footsan {
+    margin-bottom: 0%;
+}
